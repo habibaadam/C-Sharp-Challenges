@@ -120,6 +120,7 @@ public static class Program {
     public static void Main()
     {
         //Challenges.TriangleFarmer();
-        Challenges.FourSisters();
+        //Challenges.FourSisters();
+        Challenges.DominionOfKings();
     }
 }

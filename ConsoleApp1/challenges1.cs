@@ -35,8 +35,22 @@ Objectives:
 duckbear.
 • Answer this question: What are three total egg counts where the duckbear gets more than each
 sister does? You can use the program you created to help you find the answer. = 6, 7, 11,
-*/
 
+
+
+Challenge The Dominion of Kings 100 XP
+Three kings, Melik, Casik, and Balik, are sitting around a table, debating who has the greatest kingdom
+among them. Each king rules an assortment of provinces, duchies, and estates. Collectively, they agree
+to a point system that helps them judge whose kingdom is greatest: Every estate is worth 1 point, every
+duchy is worth 3 points, and every province is worth 6 points. They just need a program that will allow
+them to enter their current holdings and compute a point total.
+Objectives:
+• Create a program that allows users to enter how many provinces, duchies, and estates they have.
+• Add up the user’s total score, giving 1 point per estate, 3 per duchy, and 6 per province.
+• Display the point total to the user.
+
+
+*/
 
 public static class Challenges
 {
@@ -72,4 +86,22 @@ public static class Challenges
         }
     }
 
+    public static void DominionOfKings()
+    {
+        Console.WriteLine("====The Dominion Of Kings=====");
+
+        Console.WriteLine("Input how many estates you have");
+        int estates = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Input how many duchies you have ");
+        int duchies = Convert.ToInt32(Console.ReadLine());
+        duchies *= 3;
+
+        Console.WriteLine("Input how many provinces you have ");
+        int provinces = Convert.ToInt32(Console.ReadLine());
+        provinces *= 6;
+
+        int totalPoints = estates + duchies + provinces;
+        Console.WriteLine($"You have a total of {totalPoints} for your kingdom holdings");
+    }
 }
