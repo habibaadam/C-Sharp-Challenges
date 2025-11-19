@@ -22,7 +22,7 @@ Objectives:
 */
 
 
-public class Challenges
+public static class Challenges
 {
     public static void TriangleFarmer()
     {
@@ -38,5 +38,5 @@ public class Challenges
         Console.WriteLine("The area of the triangle is " + area);
     }
 
-    
+
 }
