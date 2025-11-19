@@ -119,6 +119,7 @@ public class StartChallenges {
 public static class Program {
     public static void Main()
     {
-        Challenges.TriangleFarmer();
+        //Challenges.TriangleFarmer();
+        Challenges.FourSisters();
     }
 }
