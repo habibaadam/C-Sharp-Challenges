@@ -105,9 +105,12 @@ Console.WriteLine(justAString);
 Console.WriteLine(ddPointer);
 */
 
-// Side Quest
+/* Side Quest
 string favoriteNum;
 Console.WriteLine("What is your favorite number?");
 favoriteNum = Console.ReadLine();
 int convertedFaveNum = Convert.ToInt32(favoriteNum);
 Console.WriteLine("Successfully converted your favorite number: " + convertedFaveNum);
+*/
+
+Challenges.TriangleFarmer();
